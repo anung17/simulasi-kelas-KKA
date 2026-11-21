@@ -24,6 +24,8 @@ st.markdown("---")
 
 st.subheader("📌 Ringkasan Indikator Utama")
 
+st.write("Pembahasan Sumber Data")
+
 col1, col2, col3 = st.columns(3)
 with col1:
     st.metric("Indikator Utama", "IHK", "Inflasi")
